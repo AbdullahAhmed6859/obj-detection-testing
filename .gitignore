@@ -1,0 +1,42 @@
+# YOLO PyTorch Model Weights
+*.pt
+*.pth
+
+# Exported Model Formats
+*.onnx
+*.engine
+*.trt
+*.pb
+*.tflite
+*.mlmodel
+*.mlpackage
+*_openvino_model/
+*_saved_model/
+
+# Ultralytics Default Output Directories
+runs/
+yolov8*.pt
+yolov8*.onnx
+yolov8*.engine
+
+# Datasets & Annotations (If you are keeping data separate from code)
+datasets/
+images/
+labels/
+*.cache
+
+# Virtual Environments (Pipenv, venv, conda, etc.)
+.venv/
+venv/
+env/
+.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
