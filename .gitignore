@@ -19,6 +19,10 @@ yolov8*.pt
 yolov8*.onnx
 yolov8*.engine
 
+yolo26*.pt
+yolo26*.onnx
+yoloe-11s-seg-pf*.pt
+
 # Datasets & Annotations (If you are keeping data separate from code)
 datasets/
 images/
