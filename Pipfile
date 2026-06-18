@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 ultralytics = "*"
 opencv-python = "*"
+onnx = "*"
+onnxruntime = "*"
 
 [dev-packages]
 
