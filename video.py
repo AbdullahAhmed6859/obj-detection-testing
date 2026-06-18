@@ -5,10 +5,10 @@ from ultralytics import YOLO
 
 def main():
     # Load the YOLOv26 nano model (corrected from yolov8n.pt)
-    model = YOLO("yoloe-11s-seg-pf.pt")
+    model = YOLO("yolo26x.mlpackage")
 
     # Pass the path to your video file instead of the webcam index '0'
-    video_path = "videos/glove-workers.mp4"
+    video_path = "videos/area-1.mp4"
     cap = cv2.VideoCapture(video_path)
 
     if not cap.isOpened():
